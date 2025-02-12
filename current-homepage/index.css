@@ -1,0 +1,70 @@
+:root {
+    --main-color: rgb(0, 59, 252);
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+.layout {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  gap: 8em;
+
+  justify-content: center;
+  justify-items: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.projects a {
+    color: #ffffff;
+    border: 1px solid #ffffff00;
+    border-radius: 1px;
+    transition: transform 0.3s, filter 0.3s, color 3s ease-in-out;
+    cursor: pointer;
+    font-size: 2em;
+    filter: blur(4px);
+    word-wrap: break-word;
+}
+
+.projects a:hover, .projects a:active {
+    background-color: #002aff00;
+    color: rgb(0, 0, 255);
+    filter: blur(.5px); 
+    text-shadow: 2px 2px 5px #dcf8fd85; 
+    transform: scale(2.0) rotate(.5deg); 
+
+}
+
+
+.about-me, .about-me a{
+text-align: center;
+color: rgba(255, 255, 255, 0);
+transition: transform 0.3s, filter 0.3s, color 3s ease-in-out;
+font-size: .9em;
+
+}
+
+.about-me:hover, .about-me a:active, .about-me a:hover{
+    text-align: center;
+    color: rgb(0, 0, 255);
+    font-size: .9em;
+    transform: scale(1.0);
+    }
+
+.onhover {
+   color: rgb(0, 0, 255);
+   text-align:center ;
+   font-size: .8em;
+   text-shadow: 2px 2px 5px #dcf8fd;
+}
+
+
+/*.onhover2 img {
+  width: 300px;
+  height: 200px;
+  
+ }
+ 
